@@ -1,0 +1,43 @@
+#owner-details{
+    margin: 40px 50px 80px 50px;
+}
+/* owner detail card */
+.detail-card{
+    box-sizing: border-box;
+    padding: 100px 70px 100px 70px !important;
+    box-shadow: 10px 10px 25px #000000c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* owner image */
+.owner-img{
+    height: 280px;
+    width: 230px;
+    border: 2px solid #d2cece;
+    border-radius: 50%;
+    margin: 0px 0px 150px 0px !important;
+    box-shadow: 10px 10px 25px #403e3e;
+}
+.circle-style{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #d1caca;
+    margin: 14px;
+    overflow: hidden;
+}
+.owner-img img{   
+     width: 162%;
+    position: relative;
+    height: 130%;
+    right: 50px;
+}
+#owner-details p{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify;
+    color: #787d7f;
+}

@@ -1,0 +1,263 @@
+#footer{
+    background-color: #343a40;
+    padding: 80px 0px 20px 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* heading */
+.contact-info-heading , .community-head , .services-details-head, .about-head{
+    color: #8aaed4 !important;
+    font-size: 20px !important;
+    font-weight: 700;
+    margin:0px 0px 20px 0px !important;
+}
+.subscribe-head, .join-head {
+    color: #8aaed4 !important;
+    font-size: 20px !important;
+    font-weight: 700;
+    margin: 0px 0px 8px 0px !important;
+}
+
+/* list */
+.community ul, .services-details ul, .about ul{
+  list-style: none; 
+}
+.contact-details .address, .contact-number ,.contact-email a, .community a, .services-details a, .about a{
+    color:#b5b5b5 ;   
+        padding-bottom: 10px;
+}
+ .community a:hover, .services-details a:hover, .about a:hover{
+    color: #cad1d8;
+    text-decoration: none;
+    padding-left: 3px; ;
+}
+.contact-email a:hover{
+    color: #cad1d8;
+    text-decoration: none;
+}
+.contact-info-heading:after{
+    content:'';
+    height: 3px;
+    width: 200px;
+    background: #ababac;
+    display: block;
+}
+.community-head:after{
+    content:'';
+    height: 3px;
+    width: 140px;
+    background: #ababac;
+    display: block;
+}
+ .services-details-head:after{
+    content:'';
+    height: 3px;
+    width: 140px;
+    background: #ababac;
+    display: block;
+}
+.about-head:after{
+    content:'';
+    height: 3px;
+    width: 140px;
+    background:#ababac;
+    display: block;
+}
+
+/* social icons */
+.social-contacts{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.social-contacts a:hover{
+    text-decoration: none;
+}
+.social-contacts i{
+    font-size: 25px;
+    width: 40px;   
+     height: 45px;
+    background: #b5b5b5;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: #000000;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.social-contacts i:hover{
+transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* contact icon */
+.contact-details i {
+    font-size: 20px;
+    color: #b3babd;
+    margin: 0px 8px;
+}
+.contact-details .address:hover i, .contact-details .contact-number:hover i, .contact-details .contact-email:hover i{
+transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* clients registration */
+.clients-registeration{
+    display: flex;
+    margin:40px 0px 0px 0px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subscribe #email-subcription{
+    outline: none !important;
+    border: none !important;
+    width: 250px !important;
+    border-radius: 6px !important;
+    padding: 0px 10px !important;
+    height: 35px !important;
+    margin-bottom: 15px !important;
+}
+.subscribe #email-subcription:focus{
+background-color: #b5b5b5;
+color: black;
+font-weight: 500;
+}
+.subscribe-details{
+    
+}
+/* button */
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-btn .login,.join-btn .signup{
+margin: 0px 10px;
+}
+/* copyright */
+.copyright     {
+    text-align: center;
+    color: #8aaed4;
+    font-size: 18px !important;
+    margin: 60px 0px 0px 0px;
+    font-weight: 500;
+}
+.copyright:before {
+
+    content:'';
+        height: 3px;
+        width: auto;
+        background: #ababac;
+        display: block;
+        margin:0px 0px 20px 0px;
+    }
+    .copyright:after {
+    
+    content:'';
+        height: 3px;
+        width: auto;
+        background: #ababac;
+        display: block;
+        margin:20px 0px 0px 0px;
+    }
+
+
+    /* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width:0px) and (max-width:  576px) { 
+/* heading */
+.contact-info-heading , .community-head , .services-details-head, .about-head{
+    font-size: 17px !important;
+}
+.subscribe-head, .join-head {
+    font-size: 17px !important;
+}
+/* all font size */
+.contact-details .address, .contact-number , .community a, .services-details a, .about a{
+    font-size: 14px;
+}
+.contact-email a{
+    font-size: 12px;
+}
+/* button */
+.btn{
+    font-size: 12px !important;
+}
+        .copyright{
+         font-size: 12px;   
+        }
+
+    .contact-details ,.community,.services-details,.about,.social-contacts,.subscribe ,.join{
+        margin: 0px 0px 30px 0px;
+     }
+     .social-contacts,.subscribe ,.join{
+    height: fit-content !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+     }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* gap */
+    .contact-details ,.community,.services-details,.about,.social-contacts,.subscribe ,.join{
+        margin: 0px 0px 30px 0px;
+     }
+     .social-contacts,.subscribe ,.join{
+    height: fit-content !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+     }
+     /* subscribe */
+     .subscribe-details{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+     .subscribe-details .btn{
+         width: fit-content;
+     }
+  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contact-details ,.community,.services-details,.about,.social-contacts,.subscribe ,.join{
+    margin: 0px 0px 30px 0px;
+ }
+ .social-contacts,.subscribe ,.join{
+height: fit-content !important;
+align-items: center;
+justify-content: center;
+margin: 0px 0px 50px 0px;
+ }
+ }
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* heading */
+    .contact-info-heading , .community-head , .services-details-head, .about-head{
+        font-size: 19px !important;
+    }
+    .subscribe-head, .join-head {
+        font-size: 19px !important;
+    }
+/* all font size */
+    .contact-details .address, .contact-number ,.contact-email a, .community a, .services-details a, .about a{
+        font-size: 14px;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ }
